@@ -36,7 +36,7 @@ the terminal.
     "description": "Buy watermelon"
 }'  http://localhost:8080/tasks
 
-#### issue a new GET request, passing the JWT
+## Issue a new GET request, passing the JWT
 #### remember to replace xxx.yyy.zzz with the JWT retrieved above
  - curl -H "Authorization: Bearer xxx.yyy.zzz" http://localhost:8080/tasks
 
